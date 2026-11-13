@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# Every address, including /c/<clinic>/book, is served by the single page app.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

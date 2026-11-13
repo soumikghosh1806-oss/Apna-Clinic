@@ -1,0 +1,9 @@
+node_modules
+dist
+*.log
+e2e/shots
+e2e/*-result.json
+
+# Local settings. Only .env.example is committed.
+.env*
+!.env.example
