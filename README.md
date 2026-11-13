@@ -269,3 +269,5 @@ Known limits:
 Demo mode is the original prototype: 12 screens, data in `localStorage`, a visible login code, and a "Reset demo data" button in the footer. Demo logins are in `src/domain/demoStaff.ts`: reception 9000000101, General OPD doctor 9000000102, Child OPD doctor 9000000104, owner 9000000103, code `1234`. Do not enter real patient details in demo mode.
 
 Queue rules (both modes): token numbers start at 1 each day for each doctor and are never reused; online bookings and walk-ins share one queue; the same name and number cannot hold two active tokens with one doctor on one day; a doctor's daily limit stops online booking, and reception can override it for walk-ins; the owner can switch online booking off; NEXT finishes the current patient and calls the next, ignoring double presses and stale screens; wait times are estimates over open hours only.
+#   A p n a - C l i n i c  
+ 
